@@ -1,5 +1,8 @@
 // fetching bookmarks if having
-fetchBookmarks();
+if(localStorage.getItem('bookmarks') !== null){
+  fetchBookmarks();
+}
+
 
 
 // listern for form submit
